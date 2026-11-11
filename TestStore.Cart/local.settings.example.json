@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "DataProtection__ApplicationName": "TestStore.Cart",
+    "CartStorage__ConnectionString": "UseDevelopmentStorage=true"
+  },
+  "Host": {
+    "LocalHttpPort": 7073,
+    "CORS": "http://localhost:7071",
+    "CORSCredentials": true
+  }
+}

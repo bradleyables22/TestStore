@@ -1,0 +1,17 @@
+{
+  "name": "teststore-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/run.mjs",
+    "test": "node scripts/store.spec.mjs",
+    "install:browser": "playwright install chromium",
+    "storage": "azurite --silent --location .azurite --skipApiVersionCheck",
+    "setup": "node scripts/setup.mjs",
+    "test:preview-disabled": "node scripts/preview-disabled.spec.mjs"
+  },
+  "devDependencies": {
+    "azurite": "^3.37.0",
+    "playwright": "1.59.1"
+  }
+}
