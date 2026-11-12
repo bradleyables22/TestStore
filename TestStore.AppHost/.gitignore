@@ -1,6 +1,5 @@
 bin/
 obj/
-local.settings.json
 appsettings.Development.json
 .keys/
 node_modules/

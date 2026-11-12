@@ -4,7 +4,6 @@
 node_modules/
 .data/
 artifacts/
-**/local.settings.json
 
 .azurite/
 
